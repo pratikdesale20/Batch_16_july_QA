@@ -34,9 +34,12 @@ public class listener extends Base1 implements  ITestListener
 		}
 			
 }
-	
 	public void onTestSkipped(ITestResult result)
 	{
 		Reporter.log("TC"+result.getName()+" Skipped please check...",true);
-	}	
+	}
+	
+	
+	
+	
 }
